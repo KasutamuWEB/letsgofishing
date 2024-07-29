@@ -1,10 +1,10 @@
 import React from 'react';
 
-function Card(){
+function FishCard(){
     return (
         <div className="card">
         </div>
     );
 }
 
-export default Card;
+export default FishCard;

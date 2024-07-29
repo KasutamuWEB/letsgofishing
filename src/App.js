@@ -1,5 +1,7 @@
 import './App.css';
-import Card from './Card.js';
+import TideCard from './TideCard.js';
+import WeatherCard from './WeatherCard.js';
+import FishCard from './FishCard.js';
 import Header from './Header.js';
 import Footer from './Footer.js';
 
@@ -8,9 +10,9 @@ function App() {
     <>
       <Header />
       <div className="card-container">
-        <Card />
-        <Card />
-        <Card />
+        <TideCard />
+        <WeatherCard />
+        <FishCard />
       </div>
       <Footer />
     </>
